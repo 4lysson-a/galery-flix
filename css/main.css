@@ -1,0 +1,50 @@
+.filme-principal {
+  font-size: 1rem;
+  background: linear-gradient(var(--main-black), rgba(0, 0, 0, 0.308) 100%),
+    url(https://source.unsplash.com/1600x900/?nature);
+  height: 70vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .description {
+  margin-bottom: 3rem;
+}
+
+.filme-principal .titulo {
+  margin-top: 15%;
+  font-family: serif;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.filme-principal-container {
+  margin: auto 0.2rem auto 1rem;
+}
+
+.botao {
+  background: var(--third-black);
+  padding: 0.9rem;
+  border: none;
+  color: var(--main-white);
+  border-radius: 0.2rem;
+  box-shadow: 1px 1px 6px var(--sw);
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  outline: none;
+  margin-left: 0.5rem;
+}
+
+.botao:hover {
+  transform: translateY(-3px);
+  background: var(--sec-white);
+  color: var(--main-black);
+}
+
+.botao i {
+  margin-right: 1rem;
+}

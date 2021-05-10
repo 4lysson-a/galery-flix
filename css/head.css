@@ -1,0 +1,36 @@
+header.links-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 0.5rem;
+}
+
+.links-container h1.logo {
+  color: var(--red);
+  font-family: "Roboto", Times, sans-serif;
+  font-weight: 1000;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.links-container nav a {
+  text-decoration: none;
+  color: var(--third-white);
+  margin: auto 0.5rem 0 0;
+  transition: 0.2s;
+  font-weight: bold;
+}
+
+.links-container nav a:hover {
+  color: var(--main-white);
+  font-weight: bold;
+}
+
+.links-container .active {
+  color: var(--red);
+}
+
+.links-container .active:hover {
+  color: var(--hover-red);
+}
