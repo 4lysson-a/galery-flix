@@ -2,7 +2,7 @@
   font-size: 1rem;
   background: linear-gradient(var(--main-black), rgba(0, 0, 0, 0.308) 100%),
     url(https://source.unsplash.com/1600x900/?nature);
-  height: 70vh;
+  height: 80vh;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -12,6 +12,8 @@
 
 .filme-principal .description {
   margin-bottom: 3rem;
+  width: 40vw;
+  font-size: 1.2rem;
 }
 
 .filme-principal .titulo {
@@ -21,8 +23,8 @@
   font-weight: 800;
 }
 
-.filme-principal-container {
-  margin: auto 0.2rem auto 1rem;
+.container {
+  margin: auto auto auto 1rem;
 }
 
 .botao {
@@ -36,7 +38,7 @@
   font-weight: bold;
   transition: 0.3s;
   outline: none;
-
+  font-size: 0.7rem;
   margin: 0.5rem;
 }
 
