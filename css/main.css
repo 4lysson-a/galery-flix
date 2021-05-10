@@ -36,7 +36,8 @@
   font-weight: bold;
   transition: 0.3s;
   outline: none;
-  margin-left: 0.5rem;
+
+  margin: 0.5rem;
 }
 
 .botao:hover {
