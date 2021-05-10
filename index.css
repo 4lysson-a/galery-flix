@@ -1,6 +1,9 @@
 @import "./src/roboto-font.css";
+@import "./css/owl/main.css";
+
 @import "./css/head.css";
 @import "./css/main.css";
+
 
 :root {
   --sw: #0000002c;

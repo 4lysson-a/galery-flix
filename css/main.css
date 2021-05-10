@@ -14,10 +14,12 @@
   margin-bottom: 3rem;
   width: 40vw;
   font-size: 1.2rem;
+  color: var(--sec-white);
 }
 
 .filme-principal .titulo {
   margin-top: 15%;
+  color: var(--main-white);
   font-family: serif;
   font-size: 4rem;
   font-weight: 800;
@@ -29,7 +31,7 @@
 
 .botao {
   background: var(--third-black);
-  padding: 0.9rem;
+  padding: 0.99rem;
   border: none;
   color: var(--main-white);
   border-radius: 0.2rem;
