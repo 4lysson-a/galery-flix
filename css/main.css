@@ -1,7 +1,6 @@
 .filme-principal {
   font-size: 1rem;
-  background: linear-gradient(var(--main-black), rgba(0, 0, 0, 0.308) 100%),
-    url(https://source.unsplash.com/1600x900/?nature);
+  background: var(--gradient), url(https://source.unsplash.com/1600x900/?nature);
   height: 80vh;
   background-size: cover;
   display: flex;
@@ -12,7 +11,7 @@
 
 .filme-principal .description {
   margin-bottom: 3rem;
-  width: 40vw;
+  margin-right: 1.5rem;
   font-size: 1.2rem;
   color: var(--sec-white);
 }

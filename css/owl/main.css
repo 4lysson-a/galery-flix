@@ -1,2 +1,69 @@
 @import "./owl.carousel.min.css";
 @import "./owl.theme.default.min.css";
+
+.owl-nav {
+  display: none;
+}
+
+.owl-dots {
+  display: none;
+}
+
+.carrocel-container {
+  margin-top: -0.4rem;
+  margin-bottom: 1rem;
+}
+
+.item img {
+  background-size: cover;
+  height: 400px;
+}
+
+.box-film {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: block;
+  transition: 0.4s;
+  filter: brightness(0.8);
+  box-shadow: 1px 1px 10px var(--sw);
+}
+
+.info-container {
+  position: absolute;
+  padding: 1.5rem;
+  z-index: 2;
+  font-weight: 1000;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.info-title {
+  font-size: 2rem;
+}
+
+.info-description {
+  margin-right: 2rem;
+  word-break: break-all;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  transition: 0.2s;
+}
+
+.film-bottom {
+  margin: 0;
+}
+
+.info-container:hover + .box-film {
+  filter: brightness(0.2);
+}
+
+.info-container:hover {
+  opacity: 0.4;
+}

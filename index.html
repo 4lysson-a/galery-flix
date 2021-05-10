@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./index.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="shortcut icon" href="./src/img/icon.svg" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
@@ -44,33 +46,26 @@
     </main>
 
     <section class="carrocel">
-      <div class="container">
+      <div class="carrocel-container">
         <div class="owl-carousel owl-theme">
           <div class="item">
+            <div class="info-container">
+              <div class="info-sub-container">
+                <h1 class="info-title">TITULO</h1>
+                <h2 class="info-description">
+                  Aqui uma descrição do filme que pode ser inserida via
+                  JavaScript, porém como ainda não escrevi essa função esse
+                  texto fica como subtituto :>
+                </h2>
+              </div>
+              <button id="film-bottom" class="botao">
+                <i class="fas fa-play-circle"></i>
+                Assistir
+              </button>
+            </div>
             <img
               class="box-film"
-              src="https://source.unsplash.com/1280x720/"
-              alt="item"
-            />
-          </div>
-          <div class="item">
-            <img
-              class="box-film"
-              src="https://source.unsplash.com/1281x720/"
-              alt="item"
-            />
-          </div>
-          <div class="item">
-            <img
-              class="box-film"
-              src="https://source.unsplash.com/1282x720/"
-              alt="item"
-            />
-          </div>
-          <div class="item">
-            <img
-              class="box-film"
-              src="https://source.unsplash.com/1283x720/"
+              src="https://source.unsplash.com/720x1081/"
               alt="item"
             />
           </div>
@@ -79,7 +74,6 @@
     </section>
   </body>
 
-  <script type="text/javascript" src="./js/index.js"></script>
   <script type="text/javascript" src="./js/owl/setup.js"></script>
   <script type="text/javascript" src="./js/owl/jquery.min.js"></script>
   <script type="text/javascript" src="./js/owl/owl.carousel.min.js"></script>

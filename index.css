@@ -4,7 +4,6 @@
 @import "./css/head.css";
 @import "./css/main.css";
 
-
 :root {
   --sw: #0000002c;
 
@@ -19,6 +18,8 @@
   /* --main-black: #141414; */
   --sec-black: #000000a8;
   --third-black: rgba(0, 0, 0, 0.548);
+
+  --gradient: linear-gradient(var(--main-black), rgba(0, 0, 0, 0.308) 100%);
 }
 
 * {
