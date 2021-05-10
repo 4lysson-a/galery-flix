@@ -1,0 +1,31 @@
+@import "./src/roboto-font.css";
+@import "./css/head.css";
+@import "./css/main.css";
+
+:root {
+  --sw: #0000002c;
+
+  --red: #e63d3a;
+  --hover-red: #aa2826;
+
+  --sec-white: #d1d1d1;
+  --main-white: #ececec;
+  --third-white: #a1a1a1;
+
+  --main-black: rgb(8, 8, 8);
+  /* --main-black: #141414; */
+  --sec-black: #000000a8;
+  --third-black: rgba(0, 0, 0, 0.548);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  color: var(--main-white);
+  background: var(--main-black);
+}
