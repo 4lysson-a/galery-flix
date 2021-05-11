@@ -1,6 +1,6 @@
 .filme-principal {
   font-size: 1rem;
-  background: var(--gradient), url(https://source.unsplash.com/1600x900/?nature);
+  background: var(--gradient), url(https://source.unsplash.com/random/1600x900);
   height: 80vh;
   background-size: cover;
   display: flex;
