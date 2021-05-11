@@ -1,7 +1,9 @@
+@import "./css/main.css"; /* Filme principal */
+@import "./css/head.css"; /* Barra de navegação */
+@import "./css/owl/main.css"; /* Cards de filme */
+@import "./css/scrollbar.css";
+@import "./css/responsive.css";
 @import "./src/roboto-font.css";
-@import "./css/owl/main.css";
-@import "./css/head.css";
-@import "./css/main.css";
 
 :root {
   --sw: #0000002c;
@@ -14,7 +16,6 @@
   --third-white: #a1a1a1;
 
   --main-black: rgb(8, 8, 8);
-  /* --main-black: #141414; */
   --sec-black: #000000a8;
   --third-black: rgba(0, 0, 0, 0.548);
 

@@ -1,3 +1,4 @@
+//tentativa de fazer um hub de imports, porém não finciona com o slider ,-,
 document.write(
   '<script type="text/javascript" src="./js/owl/setup.js"></script>',
   '<script type="text/javascript" src="./js/owl/jquery.min.js"></script>',
@@ -10,7 +11,8 @@ var filmes = document.getElementById("film-container");
 let i = 0;
 
 while (i < 30) {
-  filmes.innerHTML += `<div class="item">
+  filmes.innerHTML += `
+  <div class="item">
     <div class="info-container">
       <div class="info-sub-container">
         <h1 class="info-title">Como as imagens são geradas ?</h1>

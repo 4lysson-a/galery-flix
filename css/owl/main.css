@@ -16,7 +16,6 @@
 
 .item img {
   background-size: cover;
-  height: 400px;
 }
 
 .box-film {
@@ -35,7 +34,7 @@
   z-index: 2;
   font-weight: 1000;
   width: 100%;
-  height: 400px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -52,13 +51,17 @@
 .info-description {
   margin-right: 2rem;
   margin-top: 1rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
   transition: 0.2s;
   hyphens: manual;
+  height: 8em;
+  overflow-y: scroll;
+  padding-right: 5px;
 }
 
 .film-bottom {
   margin: 0;
+  display: block;
 }
 
 .info-container:hover + .box-film {
