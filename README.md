@@ -1,6 +1,5 @@
 # netflix-clone
-Este repositório faz parte do desafio da Digital Innovation One
-Onde o objetivo é recriar a interface da netflix com responsividade mobile
+## Este repositório faz parte do desafio da Digital Innovation One, onde o objetivo é recriar a interface da netflix com responsividade mobile
 
 Fiz a interface seguindo algumas orientações da aula e colocando elementos diferentes em alguns pontos, como nas imagens, que ao invés de baixa-las eu importei usando a API do unsplash, onde só precisa colocar um link e se pode especificar a qualidade da imagem.
 
