@@ -9,11 +9,8 @@ var filmes = document.getElementById("film-container");
 
 let i = 0;
 
-var inputs = "";
-
-while (i < 20) {
-  inputs += `
-  <div class="item">
+while (i < 30) {
+  filmes.innerHTML += `<div class="item">
     <div class="info-container">
       <div class="info-sub-container">
         <h1 class="info-title">Como as imagens são geradas ?</h1>
@@ -36,5 +33,3 @@ while (i < 20) {
 
   i++;
 }
-
-filmes.innerHTML = inputs;

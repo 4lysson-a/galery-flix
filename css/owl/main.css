@@ -42,6 +42,7 @@
   align-items: left;
   transition: 0.3s;
   opacity: 0;
+  border: 2px solid var(--main-black);
 }
 
 .info-title {
@@ -61,7 +62,7 @@
 }
 
 .info-container:hover + .box-film {
-  filter: brightness(0.2);
+  filter: brightness(0.2) blur(1px);
 }
 
 .info-container:hover {
