@@ -24,7 +24,7 @@
     font-size: 0.8rem;
   }
 
-  .info-title{
+  .info-title {
     font-size: 3rem;
   }
 
@@ -48,10 +48,9 @@
     margin-left: 1rem;
   }
 
-  .info-title{
+  .info-title {
     font-size: 2rem;
   }
-
 
   .container {
     margin: 0px;
@@ -80,5 +79,32 @@
   .carrocel-container {
     /* margin-top: 2rem; */
     margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 598px) {
+  .botao {
+    background: var(--third-black);
+    padding: 0.99rem;
+    border: none;
+    color: var(--main-white);
+    border-radius: 0.2rem;
+    box-shadow: 1px 1px 6px var(--sw);
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+    outline: none;
+    font-size: 0.7rem;
+    margin: 0.5rem;
+  }
+
+  .botao:focus {
+    transform: translateY(-3px);
+    background: var(--sec-white);
+    color: var(--main-black);
+  }
+
+  .botao i {
+    margin-right: 1rem;
   }
 }
