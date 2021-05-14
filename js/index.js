@@ -10,7 +10,7 @@ var filmes = document.getElementById("film-container");
 
 let i = 0;
 
-while (i < 30) {
+while (i < 50) {
   filmes.innerHTML += `
   <div class="item">
     <div class="info-container">
