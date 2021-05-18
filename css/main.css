@@ -11,7 +11,9 @@
 
 .filme-principal .description {
   margin-bottom: 3rem;
-  margin-right: 1.5rem;
+  margin-right: 2rem;
+  margin-left: 0.5rem;
+  max-width: 50em;
   font-size: 1.2rem;
   color: var(--sec-white);
 }

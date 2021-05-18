@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>MYFLIX</title>
+    <title>Galery Flix</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./index.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="shortcut icon" href="./src/img/icon.svg" type="image/x-icon" />
+    <link rel="shortcut icon" href="./src/img/icon2.svg" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <header class="links-container">
       <section class="logo-container">
-        <h1 class="logo">MYFLIX</h1>
+        <h1 class="logo">GALERY FLIX</h1>
       </section>
       <nav class="links-a-container">
         <a class="active" href="#">Inicio</a>
@@ -24,10 +24,12 @@
     <main>
       <section class="filme-principal">
         <div class="container">
-          <h3 class="titulo">MYFLIX FILME</h3>
+          <h3 class="titulo">GALERY FLIX</h3>
           <p class="description">
-            O myflix é uma netflix que importa imagens do unsplash.com e usa
-            para gerar os filmes.
+            O Galery Flix, é uma galeria de imagens aleatórias que são
+            importadas usando a api do unsplash.com sem a necessidade de
+            baixa-las ou coloca-las no repositório do projeto, recarregue a
+            página para se inspirar com novas imagens
           </p>
 
           <div class="button-container">
@@ -35,7 +37,7 @@
               <i class="fas fa-play"></i>
               ASSISTIR AGORA
             </button>
-            <button role="button" class="botao">
+            <button id="button-info" role="button" class="botao">
               <i class="fas fa-info-circle"></i>
               MAIS INFORMAÇÕES
             </button>
@@ -44,8 +46,8 @@
       </section>
     </main>
 
-    <section class="carrocel">
-      <div class="carrocel-container">
+    <section id="carrocel" class="carrocel">
+      <div id="filme-row" class="carrocel-container">
         <div id="film-container" class="owl-carousel owl-theme"></div>
       </div>
     </section>
