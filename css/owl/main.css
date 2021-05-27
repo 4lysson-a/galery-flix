@@ -1,6 +1,14 @@
 @import "./owl.carousel.min.css";
 @import "./owl.theme.default.min.css";
 
+.carrocel {
+  opacity: 0;
+  animation-name: fade-in-left;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+
 .owl-nav {
   display: none;
 }

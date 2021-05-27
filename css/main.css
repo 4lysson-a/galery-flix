@@ -7,6 +7,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+
+  opacity: 0;
+  animation-name: fade-in-top;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 .filme-principal .description {
@@ -16,6 +21,12 @@
   max-width: 50em;
   font-size: 1.2rem;
   color: var(--sec-white);
+
+  opacity: 0;
+  animation-name: fade-in-top;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
 }
 
 .filme-principal .titulo {
@@ -24,6 +35,12 @@
   font-family: serif;
   font-size: 4rem;
   font-weight: 800;
+
+  opacity: 0;
+  animation-name: fade-in-top;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
 }
 
 .container {
@@ -43,6 +60,12 @@
   outline: none;
   font-size: 0.7rem;
   margin: 0.5rem;
+
+  opacity: 0;
+  animation-name: fade-in-top;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
 }
 
 .botao:hover {
