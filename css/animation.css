@@ -1,0 +1,21 @@
+@keyframes fade-in-top {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-left {
+  from {
+    opacity: 0;
+    transform: transitionX(-3px);
+  }
+  to {
+    opacity: 1;
+    transform: transitionX(0);
+  }
+}
