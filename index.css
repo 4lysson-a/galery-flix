@@ -1,6 +1,7 @@
 @import "./css/main.css"; /* Filme principal */
 @import "./css/head.css"; /* Barra de navegação */
 @import "./css/owl/main.css"; /* Cards de filme */
+@import "./css/animation.css";
 @import "./css/scrollbar.css";
 @import "./css/responsive.css";
 @import "./src/roboto-font.css";
