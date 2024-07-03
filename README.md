@@ -1,3 +1,8 @@
+> [!WARNING]  
+> This is an old project, made for study purposes. Because of this, it may contain several inconsistencies in its code base.
+
+---
+
 # netflix-clone
 ## Este repositório faz parte do desafio da Digital Innovation One, onde o objetivo é recriar a interface da netflix com responsividade mobile
 
